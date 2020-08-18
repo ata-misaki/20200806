@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% block content %}
+<!-- ここから -->
 <p>{{user_name}}さんこんにちは！</p>
 <table border = "1">
     {% for item in task_list %}
@@ -15,5 +16,5 @@
 </table>
 <a href="/add">追加</a>
 <a href="/logout">ログアウト</a>
-
+<!-- ここまで -->
 {% endblock %}
